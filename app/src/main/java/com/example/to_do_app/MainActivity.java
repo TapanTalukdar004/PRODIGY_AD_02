@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         items = new ArrayList<>();
-        itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
+        itemsAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.text_color_layout, items);
         listview.setAdapter(itemsAdapter);
 
 
